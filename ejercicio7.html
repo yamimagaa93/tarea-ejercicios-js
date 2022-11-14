@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprobados y reprobados</title>
+</head>
+<body>
+    <h1>elaborar un algoritmo para leer las notas de 10 estudiantes y
+         mostrar cantidad de aprobados y reprobados
+        </h1>
+
+    <script>
+            var nota
+            var aprobados=0;
+            var reprobados=0;
+
+           
+            for (let i = 1; i <= 10; i++) {
+                nota= prompt("ingrese nota");
+                
+                if (nota<=6){
+                    
+                    reprobados= reprobados+1;
+
+                } else {
+                    aprobados= aprobados +1;
+                    
+                }
+                alert("la cantida de reprobados es:"+reprobados+ "la cantidad de aprobados es:"+aprobados);   
+            } 
+           </script>
+</body>
+</html>
